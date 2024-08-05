@@ -1,0 +1,109 @@
+html{
+    background-color: black;
+}
+    
+/* .comics{
+    background-image: url(/src/assets/d0cad9bc-5c4f-46f9-bc3d-87b2a3226650.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.character-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin: 2rem;
+}
+.character-grid img{
+    width: 300px;
+    height: 300px;
+}
+.character-name{
+    color: white;
+    text-align: center;
+}
+
+.loading{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    /* margin-bottom: 44rem; */
+    color: red;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.welcome{
+    color: red;
+    text-align: center;
+    font-size: 4rem;
+}
+.nav-bar{
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar .nav-link{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+/* .me-auto{
+    display: flex;
+    justify-content: space-around;
+} */
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.comics{
+    color: white;
+    text-align: center;
+}
+
+.list-group{
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+.card{
+    text-align: center;
+    display: flex;
+}
+.card-title{
+    color: white;
+    text-align: center;
+}
+.card-text{
+    color: white;
+    text-align: center;
+}
+
